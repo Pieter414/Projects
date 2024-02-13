@@ -1,9 +1,15 @@
-#include "helpers.h"
 #include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "helpers.h"
 
 #define RED_COLOR 0
 #define GREEN_COLOR 1
 #define BLUE_COLOR 2
+
+int check(int num);
 
 // Convert image to grayscale
 void grayscale(int height, int width, RGBTRIPLE image[height][width])
@@ -18,6 +24,26 @@ void grayscale(int height, int width, RGBTRIPLE image[height][width])
             image[i][j].rgbtBlue = average;
             image[i][j].rgbtGreen = average;
             image[i][j].rgbtRed = average;
+        }
+    }
+    return;
+}
+
+// Convert image to sepia
+void sepia(int height, int width, RGBTRIPLE image[height][width])
+{
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            // 1. Calculate each new color value using Sepia formula
+            int sepiaRed = round(.393 * image[i][j].rgbtRed + .769 * image[i][j].rgbtGreen + .189 * image[i][j].rgbtBlue);
+            int sepiaGreen = round(.349 * image[i][j].rgbtRed + .686 * image[i][j].rgbtGreen + .168 * image[i][j].rgbtBlue);
+            int sepiaBlue = round(.272 * image[i][j].rgbtRed + .534 * image[i][j].rgbtGreen + .131 * image[i][j].rgbtBlue);
+            // 2. Check if the result between 0 and 255 inclusive, and assign it to the original image
+            image[i][j].rgbtRed = check(sepiaRed);
+            image[i][j].rgbtGreen = check(sepiaGreen);
+            image[i][j].rgbtBlue = check(sepiaBlue);
         }
     }
     return;
@@ -53,6 +79,7 @@ void reflect(int height, int width, RGBTRIPLE image[height][width])
     return;
 }
 
+// Blur the image
 int getBlur(int i, int j, int height, int width, RGBTRIPLE image[height][width], int color)
 {
     float count = 0.0;
@@ -105,6 +132,23 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
         }
     }
     return;
+}
+
+// Check function for the sepia filter
+int check(int num)
+{
+    if (num > 255)
+    {
+        return 255;
+    }
+    else if (num < 0)
+    {
+        return 0;
+    }
+    else
+    {
+        return num;
+    }
 }
 
 int getEdges(int i, int j, int height, int width, RGBTRIPLE image[height][width], int color)
