@@ -1,6 +1,6 @@
 # Text Speller Checker
 ## Description
-This program is able to 'filter' images, by changing RBG (Red, Blue, Green) data in file images and using an algorithm to essentially recolor the image as a filter. There are five types of filters that the program is able to run. Grayscale, to turn images black and white. Sepia, to turn images like old photos yellowish color. Rotate, to rotate the image horizontally. Blur, to blur the image. And lastly, Edges to identify the edge in the picture. 
+This program is able to check spelling mistakes in text files, by loading dictionaries in hash tables and checking every word from the text file. The dictionaries provided by the program are small dictionaries that contain small words and big dictionaries containing over 140.000+ words. 
 
 ## How to running the program
 1. First, compile the filter.c into filter
