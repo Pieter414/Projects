@@ -1,6 +1,6 @@
 # Text Speller Checker
 ## Description
-This program is able to check spelling mistakes in text files, by loading dictionaries in hash tables and checking every word from the text file. The dictionaries provided by the program are small dictionaries that contain small words and big dictionaries containing over 140.000+ words. 
+This program is able to check spelling mistakes in text files, by loading dictionaries in hash tables and checking every word from the text file. The dictionaries provided by the program are small dictionaries that contain small words and big dictionaries containing over 140.000+ words. The preloaded file contains 28 different texts to provide you how the program able to work.
 
 ## How to running the program
 1. First, compile the filter.c into filter
