@@ -24,8 +24,6 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -161,7 +159,7 @@ Project Link: [https://github.com/Pieter414/Projects/tree/main/Filter](https://g
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [CS50 (CS50: Introduction to Computer Science)](https://pll.harvard.edu/course/cs50-introduction-computer-science)
+* [CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
