@@ -82,7 +82,7 @@ This program is able to 'filter' images, by changing RBG (Red, Blue, Green) data
 
 ### Built With
 
-* C
+* ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
