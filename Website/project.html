@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html">My Website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="interest.html">Interest</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="project.html">Project</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="bg-dark opening">
+            <h2 class="display-4 mb-1 other-page">MY PROJECT</h2>
+        </header>
+        <div class="body-area border-top border-bottom">
+            <h2 class="soon">Coming Soon</h2>
+            <p class="soon" >I haven't doing much for personal project but here some links</p>
+            <div class="text-center">
+                <a class="btn damn btn-secondary col-2" href="https://github.com/Pieter414" role="button" target="_blank">Github</a>
+                <a class="btn damn btn-primary col-2" href="https://www.linkedin.com/in/pieter-christy-yan-yudhistira/" role="button" target="_blank">Linkedin</a>
+                <a class="btn damn btn-success col-2" href="https://www.hackerrank.com/profile/pieterchristyan7" role="button" target="_blank">Hackerrank</a>
+            </div>
+            <div class="text-center">
+                <h6 class="soon">here some silly coding excersice</h6>
+                <form>
+                    <label for="name">What's your name:</label><br>
+                    <input type="text" id="name" name="name" class="mb-3"><br>
+                    <input type="submit" id="sub">
+                  </form>
+            </div>
+        </div>
+        <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright © Your Website 2024</p></div>
+        </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                let Form = document.querySelector('#sub');
+                var nama = document.querySelector('#name');
+
+                if (nama.value != ''){
+                    Form.addEventListener("click", () => {
+                        alert("Hello, "+ nama.value);
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>
