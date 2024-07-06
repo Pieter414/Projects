@@ -130,9 +130,9 @@ Example : (Turning stadium.bmp file into grayscale)
 ### Edges
 ![edges image](src/edges.bmp)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://github.com/Pieter414/Projects/tree/main/Filter)_
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Pieter414/Projects/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

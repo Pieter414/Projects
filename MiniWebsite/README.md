@@ -31,13 +31,13 @@
     <img src="../images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Snake Game</h3>
+<h3 align="center">Mini Website</h3>
 
   <p align="center">
-    <a href="https://github.com/Pieter414/Projects/tree/main/SnakeGame"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Pieter414/Projects/tree/main/MiniWebsite"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Pieter414/Projects/tree/main/SnakeGame">View Demo</a>
+    <a href="https://github.com/Pieter414/Projects/tree/main/MiniWebsite">View Demo</a>
     ·
     <a href="https://github.com/Pieter414/Projects/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -74,7 +74,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project means to recreate the classic snake game. The player can control the "snake" that automates going around the screen and eating the blue dot as food to grow. There is also a score and high score counter going to track your score. The player can use the 'up' key, 'down' key, 'left' key, and 'right' key to move the head of the snake. If the snake hits his tail or hits a wall, the game is over and the program tracks this game score and the highest score.
+This project is a web development exercise utilizing Python with Flask for building the website. The site features three main pages: Home, About, and Contact. The Home page includes three blog posts. The back-end is developed in Python using Flask as the web framework, SQLAlchemy for SQL database storage, and WTForms for handling forms and data submission. Additionally, a Bootstrap template is used for the front-end, leveraging native JavaScript. This project demonstrates the integration of these various components to create a functional website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,6 +83,10 @@ This project means to recreate the classic snake game. The player can control th
 ### Built With
 
 * [![Python][python.org]][Python-url]
+* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+* 	![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,10 +102,10 @@ This project means to recreate the classic snake game. The player can control th
 ### How to Run
 run the main.py program
 ```
-python .\SnakeGame\main.py
+python .\MiniWebsite\main.py
 ```
 
-or in SnakeGame directory
+or in MiniWebsite directory
 ```
 python main.py
 ```
@@ -113,18 +117,24 @@ python main.py
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. The screen will appear, there black screen with one snake that moves toward the right, a blue dot to assemble food, and a scoreboard. 
-![start screen](src/image1.png)
-2. Move the snake using the 'up' key, 'down' key, 'left' key, or 'right' key. 
-3. If the snake hits the food, it going to add the snake length one block
-![longer snake](src/image2.png)
-4. If the snake hits tail, the game is over
-![snake hits itself](src/image3.png)
-5. If the snake hit the wall, the game is over
-![snake hit the wall](src/image4.png)
-6. To play it again, run the main.py again
+1. In the python terminal server, mode will appear to show the system running/walking.
+<br>Ctrl + Click or copy the link to your browser to open the website.
+```
+Running on http://127.0.0.1:5003
+```
+2. The website contains three main pages: Home, About, and Contact, which can be accessed through the website header.
+3. Home Page<br>
+The Home Page features three blogs: "Example Post," "Lego is fun," and "A New Title, New Life."
+There is a button to create a new post, view old posts (though this feature is not used as there are only three blogs), and an ✘ symbol to delete a blog.
+4. Blog Details<br>
+Each blog has an edit button that allows users to modify the title, subtitle, author, and content of the blog.
+Detailed views are available for each blog: "Example Post," "Lego is fun," and "A New Title, New Life."
+5. Contact Page<br>
+The Contact page includes a form where users can send messages to the website creator.
+6. To stop the program, you can close the IDE, stop running the server, or use Ctrl+C in the terminal.
 
-_For more examples, please refer to the [Documentation](https://github.com/Pieter414/Projects/tree/main/SnakeGames)_
+
+_For more examples, please refer to the [Documentation](https://github.com/Pieter414/Projects/tree/main/MiniWebsite)_
 
 See the [open issues](https://github.com/Pieter414/Projects/issues) for a full list of proposed features (and known issues).
 
