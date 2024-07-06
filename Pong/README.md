@@ -27,17 +27,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Pieter414/Projects/tree/main/SnakeGame">
+  <a href="https://github.com/Pieter414/Projects/tree/main/Pong">
     <img src="../images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Snake Game</h3>
+<h3 align="center">Pong Game</h3>
 
   <p align="center">
-    <a href="https://github.com/Pieter414/Projects/tree/main/SnakeGame"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Pieter414/Projects/tree/main/Pong"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Pieter414/Projects/tree/main/SnakeGame">View Demo</a>
+    <a href="https://github.com/Pieter414/Projects/tree/main/Pong">View Demo</a>
     ·
     <a href="https://github.com/Pieter414/Projects/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
@@ -74,7 +74,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project means to recreate the classic snake game. The player can control the "snake" that automates going around the screen and eating the blue dot as food to grow. There is also a score and high score counter going to track your score. The player can use the 'up' key, 'down' key, 'left' key, and 'right' key to move the head of the snake. If the snake hits his tail or hits a wall, the game is over and the program tracks this game score and the highest score.
+This project means to recreate the classic pong game. The player can control the left and right bar and moved to bounce back the ball. The ball automatically move back and front. There is also a score and high score counter going to track your score. The player can use the 'w' key and 's' key to move the left bar. Also player able to use 'up' key and 'down' key to move the right bar. If the snake hits a wall, the the opposite player get one points.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +87,6 @@ This project means to recreate the classic snake game. The player can control th
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -98,10 +97,10 @@ This project means to recreate the classic snake game. The player can control th
 ### How to Run
 run the main.py program
 ```
-python .\SnakeGame\main.py
+python .\Pong\main.py
 ```
 
-or in SnakeGame directory
+or in Pong directory
 ```
 python main.py
 ```
@@ -113,18 +112,18 @@ python main.py
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. The screen will appear, there black screen with one snake that moves toward the right, a blue dot to assemble food, and a scoreboard. 
-![start screen](src/image1.png)
-2. Move the snake using the 'up' key, 'down' key, 'left' key, or 'right' key. 
-3. If the snake hits the food, it going to add the snake length one block
-![longer snake](src/image2.png)
-4. If the snake hits tail, the game is over
-![snake hits itself](src/image3.png)
-5. If the snake hit the wall, the game is over
-![snake hit the wall](src/image4.png)
+1. The screen will appear, there black screen with left and right bar. Also a ball that moves toward the right, and a scoreboard. 
+![start screen](src/Gameplay_1.png)
+2. Move the snake using the 'w' key and 's' key to move the left bar and use 'up' key, or 'down' key to move the right bar. 
+3. If the ball hits the upper and lower wall, it's will bounce to other direction
+![before bounce screen](src/Gameplay_6.png)
+![after bounce screen](src/Gameplay_7.png)
+4. If the ball hits left and right wall, the opposite player get a point
+![ball hit wall](src/Gameplay_4.png)
+5. If close the game, just click the X exit or Ctrl + C
 6. To play it again, run the main.py again
 
-_For more examples, please refer to the [Documentation](https://github.com/Pieter414/Projects/tree/main/SnakeGames)_
+_For more examples, please refer to the [Documentation](https://github.com/Pieter414/Projects/tree/main/Pong)_
 
 See the [open issues](https://github.com/Pieter414/Projects/issues) for a full list of proposed features (and known issues).
 

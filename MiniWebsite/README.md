@@ -27,7 +27,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Pieter414/Projects/tree/main/SnakeGame">
+  <a href="https://github.com/Pieter414/Projects/tree/main/MiniWebsite">
     <img src="../images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -97,7 +97,11 @@ This project is a web development exercise utilizing Python with Flask for build
 
 ### Prerequisites
 
-1. Python and Turtle
+check on requirements.txt and run
+
+```
+pip install -r requirements.txt
+```
 
 ### How to Run
 run the main.py program
@@ -154,7 +158,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Pieter Christy Yan Yudhistira- [linkedin-url](https://www.linkedin.com/in/pieter-christy-yan-yudhistira/) - pieterchristyan7@gmail.com
 
-Project Link: [https://github.com/Pieter414/Projects/tree/main/Filter](https://github.com/Pieter414/Projects/tree/main/Filter)
+Project Link: [https://github.com/Pieter414/Projects](https://github.com/Pieter414/Projects)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

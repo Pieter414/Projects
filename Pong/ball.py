@@ -9,7 +9,7 @@ class Ball(Turtle):
         self.penup()
         self.move_x = 10
         self.move_y = 10
-        self.move_speed = 0.5
+        self.move_speed = 0.06
                 
     def move(self):
         new_x = self.xcor() + self.move_x
